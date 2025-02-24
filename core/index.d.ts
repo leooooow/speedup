@@ -38,6 +38,13 @@ export interface Chunk extends ChunkWithoutID {
   index: number; // Index of the chunk in the document at filepath
 }
 
+export interface Definition extends ChunkWithoutID {
+  title: string;
+  type: number; // Index of the chunk in the document at filepath
+}
+
+type DefinitionsChunk = Chunk & { title: string; type: string; };
+
 export interface IndexingProgressUpdate {
   progress: number;
   desc: string;

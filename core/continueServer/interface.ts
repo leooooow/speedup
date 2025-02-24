@@ -8,6 +8,7 @@ export interface EmbeddingsCacheChunk {
 }
 
 interface ArtifactReturnTypes {
+  definitions: Chunk[]
   chunks: Chunk[];
   embeddings: EmbeddingsCacheChunk[];
 }

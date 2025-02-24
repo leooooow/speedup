@@ -207,6 +207,7 @@ async function* getSmartCollapsedChunks(
         node,
         code,
         maxChunkSize,
+        
       ),
       startLine: node.startPosition.row,
       endLine: node.endPosition.row,

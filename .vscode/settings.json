@@ -43,5 +43,9 @@
     // "sync/**": true
   },
   "eslint.workingDirectories": ["./core"],
-  "typescript.tsdk": "node_modules/typescript/lib"
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "jest.rootPath": "core",
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  }
 }
